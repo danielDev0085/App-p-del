@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(238, 234, 234);
+    color: darkblue;
+    font-size: 16px;
+}
+
+/*----TABLA----*/
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(188, 228, 249);
+}
+table, th, td{
+    border: solid 2px darkblue;
+    margin: 0px;
+}
+
+th, td{
+    height: 25px;
+}
+
+/*----CONTENEDOR DE CADA TABLA----*/
+.tables{
+    display: block;
+    justify-content: center;
+    width: 30%;
+}
+
+/*---CONTENEDOR TABLA USUARIO-----*/
+body .container-table-user{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+/*----CONTENEDOR TABLAS ADMINISTRADOR----*/
+body .container-tables{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+/*----CONTENEDOR FORMULARIOS ADMINISTRADOR----*/
+body .container-form{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+/*----CONTENEDOR DE CADA FORMULARIO----*/
+.form{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    margin: 0px;
+}
+
+/*----FORMULARIO----*/
+form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*----CONTENEDOR INPUTS Y ETIQUETAS----*/
+.label{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    width: 350px;
+}
+
+/*----CONTENEDOR BOTONES DE RESERVAS----*/
+.container-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    width: 350px;
+}
+
+ /*----BOTONES----*/
+button{
+    width: 135px;
+    height: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+
+/*----BOTONES DE RESERVAS----*/
+.btn-remove-reserve{
+    background-color: rgb(147, 16, 16);
+    width: 160px;
+    height: 40px;
+}
+
+/*----BOTONES AÑADIR----*/
+.btn-add,
+.btn-login{
+    background-color: rgb(2, 94, 2);
+}
+
+/*----BOTONES ACTUALIZAR----*/
+.btn-update{
+    background-color: rgb(217, 118, 13);
+}
+
+/*----BOTONES ELIMINAR----*/
+.btn-remove{
+    background-color: rgb(147, 16, 16);
+}
+
+/*----BOTÓN CERRAR SESIÓN----*/
+.btn-close{
+    background-color: rgb(17, 17, 152);
+}
+
